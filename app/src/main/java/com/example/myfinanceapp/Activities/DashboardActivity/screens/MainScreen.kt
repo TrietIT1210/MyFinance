@@ -11,6 +11,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.example.myfinanceapp.Activities.DashboardActivity.components.ActionButtonRow
 import com.example.myfinanceapp.Activities.DashboardActivity.components.CardSection
 import com.example.myfinanceapp.Activities.DashboardActivity.components.HeaderSection
 import com.example.myfinanceapp.Domain.ExpenseDomain
@@ -44,6 +45,7 @@ fun MainScreen(
         ) {
             item { HeaderSection() }
             item { CardSection(onClick = onCardClick) }
+            item { ActionButtonRow() }
         }
     }
 }
