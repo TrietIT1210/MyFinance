@@ -108,7 +108,7 @@ fun CenterStatsCard(modifier: Modifier = Modifier) {
             modifier = Modifier
                 .constrainAs (expenseIcon) {
                     top.linkTo(expenseLabel.top)
-                    end.linkTo(expenseLabel.start, margin = 32.dp)
+                    end.linkTo(expenseLabel.start, margin = 8.dp)
                     bottom.linkTo(expenseLabel.bottom)
                 }
         )
